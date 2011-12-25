@@ -1,0 +1,12 @@
+paginate: 7
+permalink: pretty 
+markdown: kramdown
+url: http://worldoftomorrow.ca
+exclude: build test
+
+kramdown: 
+  auto_ids: true,
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
